@@ -11,7 +11,7 @@ jQuery(function () {
         });
         return params;
     }
-    console.log('I ran!');
+
     jQuery('a').each(function () {
         var href = this.href;
         if (href.indexOf('?') === -1) {
