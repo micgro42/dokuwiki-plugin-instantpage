@@ -15,7 +15,7 @@ jQuery(function () {
     jQuery('a').each(function () {
         var href = this.href;
         if (href.indexOf('?') === -1) {
-            // Links with query string are already handled correctly
+            // Links without query string are already handled correctly
             return;
         }
         const params = getUrlParams(href);
