@@ -1,7 +1,7 @@
 base   instantpage
 author Michael Große
 email  mic.grosse+dokuwiki@googlemail.com
-date   2019-04-06
+date   2019-04-20
 name   instantpage plugin
 desc   make your wiki faster with  just-in-time preloading
 url    https://dokuwiki.org/plugin:instantpage
