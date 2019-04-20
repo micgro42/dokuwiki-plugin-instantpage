@@ -25,6 +25,4 @@ jQuery(function () {
         }
         jQuery(this).attr('data-instant', 1);
     });
-
-    /* DOKUWIKI:include scripts/instantpage.js */
 });
