@@ -1,6 +1,6 @@
 <?php
 
-class action_plugin_instantpage extends DokuWiki_Action_Plugin
+class action_plugin_instantpage_adjustPrefetchCaching extends DokuWiki_Action_Plugin
 {
 
     /**
