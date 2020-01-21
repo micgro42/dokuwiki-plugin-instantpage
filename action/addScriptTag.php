@@ -30,8 +30,9 @@ class action_plugin_instantpage_addScriptTag extends DokuWiki_Action_Plugin
     public function addInstantPageScriptTag(Doku_Event $event)
     {
         $event->data['script'][] = [
-            'type' => 'text/javascript',
-            'src' => '//instant.page/1.2.2',
+            'type' => 'module',
+            'src' => DOKU_BASE . 'lib/plugins/instantpage/lib/3.0.0.js',
+            'integrity' => 'sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1',
             'async' => true,
             'defer' => true,
         ];
