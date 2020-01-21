@@ -36,6 +36,4 @@ class action_plugin_instantpage_addScriptTag extends DokuWiki_Action_Plugin
             'defer' => true,
         ];
     }
-
-
 }

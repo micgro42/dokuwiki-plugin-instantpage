@@ -41,7 +41,5 @@ class action_plugin_instantpage_adjustPrefetchCaching extends DokuWiki_Action_Pl
         global $INPUT;
         return $INPUT->server->str('HTTP_PURPOSE') === 'prefetch'
             || $INPUT->server->str('HTTP_X_MOZ') === 'prefetch';
-
     }
-
 }
