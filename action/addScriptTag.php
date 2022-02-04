@@ -31,8 +31,8 @@ class action_plugin_instantpage_addScriptTag extends DokuWiki_Action_Plugin
     {
         $event->data['script'][] = [
             'type' => 'module',
-            'src' => DOKU_BASE . 'lib/plugins/instantpage/lib/3.0.0.js',
-            'integrity' => 'sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1',
+            'src' => DOKU_BASE . 'lib/plugins/instantpage/lib/5.1.0.js',
+            'integrity' => 'sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw',
             'defer' => true,
         ];
     }
